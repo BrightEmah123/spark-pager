@@ -87,6 +87,8 @@ pager.stop()
 sc.stop()          
 ```
 
+💥 Note: Job Status could either be ```Running```, ```Failed``` or ```Succeeded```
+
 Now if everything goes well; you should receive a mail notification that looks kind-of like this .::
 
 ![alt text](https://github.com/BrightEmah123/spark-pager/blob/main/test/spark-pager.jpg?raw=true)
