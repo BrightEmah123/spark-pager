@@ -1,7 +1,7 @@
 """ coding .:: utf-8 """
 import threading
 import json
-from mailthon import postman, email
+import requests
 from .mailer import send_mail
 
 class Pager():

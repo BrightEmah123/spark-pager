@@ -1,5 +1,6 @@
 """ html_text.py formats the mail which will be sent to the end-user """
 from .html_text import html
+from mailthon import postman, email
 from datetime import datetime
 
 
@@ -9,7 +10,7 @@ def send_mail(username, password, host, port, spark_job):
     start_time = str(today.strftime(date_format))
 
     job_id = str(spark_job['jobId'])
-    descr  = str(spark_job['descr'])
+    descr  = str(spark_job['jobName'])
     status = str(spark_job['status'])
     num_task = str(spark_job['numTasks'])
     num_active_tasks = str(spark_job['numActiveTasks'])
