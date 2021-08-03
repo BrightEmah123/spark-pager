@@ -1,4 +1,7 @@
+import codecs
+import os
 from setuptools import setup
+
 
 def read(*parts):
     filename = os.path.join(os.path.dirname(__file__), *parts)
