@@ -4,7 +4,7 @@
 265, ```You got Mail```
 
 A 'tongue-in-cheek' pager of some sorts that notifies users via email alerts on the status of Spark Jobs during/after execution 
-
+https://pypi.org/project/spark-pager/
 
 ## Prerequisites
 * An E-mail Address and Password
